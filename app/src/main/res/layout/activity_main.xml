@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.mrkotia.fifamobile.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFE34C">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="13dp"
+            android:text="Mr.Kotia"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="13dp"
+            android:text="SAVE"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="13dp"
+            android:text="LOAD"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="295dp"
+            android:layout_marginTop="13dp"
+            android:text="RESET"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/whitegrad_bg"
+        android:elevation="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OVR"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/OVR_Image"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/holo_blue_dark"/>
+
+        <TextView
+            android:id="@+id/nextOVRtext"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/OVR_Image"
+            android:text="Points to next OVR: 6"
+            android:textSize="10sp"/>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="270dp"
+        android:background="@drawable/whitegrad_bg"
+        android:elevation="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="@android:color/black"
+            android:text="Formation"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/formation"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/black"
+            android:text="433F"
+            android:textColor="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/n_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/f433f" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/n_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/f433a" />
+
+        </RelativeLayout>
+
+    </ViewFlipper>
+
+
+</RelativeLayout>

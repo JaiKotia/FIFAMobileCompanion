@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/fm_pitch">
+
+
+        <ImageButton
+            android:id="@+id/gk"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/st"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="120dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/lw"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="170dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/rw"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="170dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/rcm"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="270dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/cam"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="230dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/lcm"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="270dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/lb"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="380dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/lcb"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="400dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+        <ImageButton
+            android:id="@+id/rcb"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="400dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+
+        <ImageButton
+            android:id="@+id/rb"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="380dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/carddropzone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

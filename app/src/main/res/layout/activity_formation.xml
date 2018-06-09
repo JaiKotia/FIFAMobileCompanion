@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mrkotia.fifamobile.FormationActivity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:id="@+id/f433f"
+            android:layout_height="170dp"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_f433f"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/fm_pitch"/>
+
+            <Button
+                android:id="@+id/btn_f433f"
+                android:layout_below="@id/img_f433f"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="433 Flat"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/f433a"
+            android:layout_height="170dp"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_f433a"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/fm_pitch"/>
+
+            <Button
+                android:id="@+id/btn_f433a"
+                android:layout_below="@id/img_f433a"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="433 Attacking"
+                android:textSize="12sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/f433F9"
+            android:layout_height="170dp"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/form_3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/fm_pitch"/>
+
+            <Button
+                android:layout_below="@id/form_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="170dp">
+
+        <ImageView
+                android:id="@+id/form_4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/fm_pitch"/>
+
+            <ImageButton
+                android:layout_below="@id/form_4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="170dp" >
+
+            <ImageView
+                android:id="@+id/form_5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/fm_pitch"/>
+
+            <ImageButton
+                android:layout_below="@id/form_5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="150dp">
+
+            <ImageView
+                android:id="@+id/form_6"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/fm_pitch"/>
+
+            <ImageButton
+                android:layout_below="@id/form_6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

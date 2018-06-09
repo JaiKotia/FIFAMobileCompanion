@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<player>
+    <player commonName="Luis García" first="Luis" height="178" id="16" jerseyName="Luis Garcia"
+        last="García Fernández" weight="65"></player>
+    <player commonName="Manu Herrera" first="Manuel" height="182" id="28" jerseyName="Herrera"
+        last="Herrera Yagüe" weight="75"></player>
+    <player commonName="Iniesta" first="Andrés" height="171" id="41" jerseyName="A.Iniesta"
+        last="Iniesta Luján" weight="68"></player>
+    <player first="Alan" height="182" id="51" last="Shearer" weight="78"></player>
+    <player first="Emre" height="170" id="80" jerseyName="Emre" last="Belözoğlu"
+        weight="72"></player>
+    <player first="Jay-Jay" height="173" id="570" last="Okocha" weight="70"></player>
+    <player first="Chris" height="188" id="591" last="Day" weight="85"></player>
+    <player first="David" height="168" id="657" last="Vaughan" weight="70"></player>
+    <player commonName="Felipe" first="Felipe" height="188" id="768" last="Dal Bello"
+        weight="75"></player>
+    <player first="Nathan" height="185" id="887" last="Clarke" weight="81"></player>
+    <player commonName="Rui Costa" first="Rui Manuel" height="180" id="1025" last="César Costa"
+        weight="74"></player>
+    <player commonName="Roberto Carlos" first="Roberto Carlos" height="168" id="1040"
+        jerseyName="R. Carlos" last="da Silva Rocha" weight="70"></player>
+    <player first="Javier" height="178" id="1041" jerseyName="J. Zanetti" last="Zanetti"
+        weight="74"></player>
+    <player first="Alessandro" height="174" id="1075" last="Del Piero" weight="74"></player>
+    <player first="Alessandro" height="187" id="1088" last="Nesta" weight="79"></player>
+    <player first="Paolo" height="186" id="1109" last="Maldini" weight="77"></player>
+    <player first="Marcel" height="185" id="1116" last="Desailly" weight="81"></player>
+    <player first="Paolo" height="185" id="1178" jerseyName="P. Cannavaro" last="Cannavaro"
+        weight="83"></player>
+    <player first="Gianluigi" height="191" id="1179" last="Buffon" weight="94"></player>
+    <player first="Filippo" height="181" id="1198" last="Inzaghi" weight="74"></player>
+    <player first="Massimo" height="189" id="1210" last="Donati" weight="79"></player>
+    <player first="Patrick" height="192" id="1419" last="Vieira" weight="82"></player>
+    <player first="Robert" height="187" id="1605" jerseyName="Pires" last="Pirès"
+        weight="74"></player>
+    <player first="Emmanuel" height="185" id="1620" last="Petit" weight="79"></player>
+    <player first="Thierry" height="188" id="1625" last="Henry" weight="83"></player>
+    <player first="Maarten" height="197" id="2147" last="Stekelenburg" weight="92"></player>
+    <player first="Roman" height="190" id="2196" last="Weidenfeller" weight="90"></player>
+    <player first="Aaron" height="191" id="2335" last="Wilbraham" weight="72"></player>
+    <player commonName="Eliseu" first="Eliseu" height="176" id="2492" last="Pereira dos Santos"
+        weight="82"></player>
+    <player first="Kevin" height="180" id="2702" last="Ellison" weight="76"></player>
+    <player commonName="Tarantini" first="Ricardo José" height="188" id="3281" last="Monteiro"
+        weight="78"></player>
+    <player first="John" height="190" id="3484" last="O'Shea" weight="84"></player>
+    <player first="Benjamin" height="178" id="3665" last="Nivet" weight="75"></player>
+    <player commonName="Moreira" first="José Filipe" height="185" id="3974" last="da Silva Moreira"
+        weight="83"></player>
+    <player first="Dennis" height="183" id="4000" last="Bergkamp" weight="78"></player>
+    <player first="Paul" height="183" id="4323" jerseyName="P. Gallacher" last="Gallacher"
+        weight="79"></player>
+    <player first="Jérémie" height="187" id="4732" jerseyName="Brechet" last="Bréchet"
+        weight="80"></player>
+    <player first="Alessandro" height="185" id="5213" last="Gamberini" weight="80"></player>
+    <player first="Roy" height="188" id="5355" last="Carroll" weight="80"></player>
+    <player first="Michael" height="173" id="5419" last="Owen" weight="70"></player>
+    <player commonName="Casillas" first="Iker" height="185" id="5479" last="Casillas Fernández"
+        weight="84"></player>
+    <player first="Rémy" height="185" id="5594" last="Vercoutre" weight="78"></player>
+    <player first="Jari" height="181" id="5673" last="Litmanen" weight="76"></player>
+    <player first="Patrick" height="188" id="5680" last="Kluivert" weight="78"></player>
+    <player first="Marc" height="173" id="5681" last="Overmars" weight="71"></player>
+    <player first="Alberto" height="184" id="5879" last="Gilardino" weight="79"></player>
+    <player first="Gareth" height="183" id="6826" last="Barry" weight="78"></player>
+    <player first="Rio" height="189" id="7289" last="Ferdinand" weight="87"></player>
+    <player first="Hernán" height="184" id="7512" last="Crespo" weight="78"></player>
+    <player first="Dario" height="191" id="7647" last="Dainelli" weight="78"></player>
+    <player first="Ferdinando" height="188" id="7674" last="Coppola" weight="86"></player>
+    <player first="Andrea" height="177" id="7763" last="Pirlo" weight="68"></player>
+    <player first="Robin" height="187" id="7826" jerseyName="v. Persie" last="van Persie"
+        weight="71"></player>
+    <player commonName="Braga" first="Bruno Manuel" height="181" id="8205" last="Araújo Braga"
+        weight="77"></player>
+    <player first="Tomáš" height="179" id="8473" jerseyName="Rosicky" last="Rosický"
+        weight="72"></player>
+    <player commonName="Ricardo Pessoa" first="Ricardo Jorge" height="173" id="8631"
+        jerseyName="R. Pessoa" last="Rodrigues Pessoa" weight="68"></player>
+    <player first="Arjen" height="180" id="9014" last="Robben" weight="80"></player>
+    <player first="Samuel" height="179" id="9676" last="Eto'o" weight="75"></player>
+    <player first="Michel" height="185" id="9807" last="Breuer" weight="88"></player>
+    <player first="Diederik" height="194" id="9833" last="Boer" weight="89"></player>
+    <player first="Stefan" height="181" id="10466" last="Ishizaki" weight="81"></player>
+    <player commonName="César Navas" first="César" height="197" id="10780" jerseyName="Cesar Navas"
+        last="González Navas" weight="88"></player>
+    <player first="Patrick" height="172" id="10824" last="Mtiliga" weight="73"></player>
+    <player first="Michael" height="180" id="10884" last="Flynn" weight="85"></player>
+    <player first="Chris" height="186" id="10899" last="Porter" weight="83"></player>
+    <player first="Matt" height="185" id="11381" last="Gilks" weight="81"></player>
+    <player first="Jamie" height="196" id="11430" last="McCombe" weight="79"></player>
+    <player first="Mike" height="185" id="11488" last="Edwards" weight="86"></player>
+    <player first="Barry" height="185" id="11728" last="Richardson" weight="77"></player>
+    <player first="Steve" height="185" id="11793" last="Collis" weight="83"></player>
+    <player first="Paul" height="170" id="11811" last="Green" weight="77"></player>
+    <player first="Emanuel" height="191" id="12940" last="Pogatetz" weight="90"></player>
+    <player commonName="Carles Puyol" first="Carles" height="178" id="13038" jerseyName="Puyol"
+        last="Puyol Saforcada" weight="80"></player>
+    <player commonName="Vítor Silva" first="Vítor Emanuel" height="169" id="13127"
+        last="Cruz da Silva" weight="69"></player>
+    <player first="Andriy" height="183" id="13128" last="Shevchenko" weight="72"></player>
+    <player first="John" height="187" id="13732" last="Terry" weight="90"></player>
+    <player first="Alan" height="180" id="13739" last="Smith" weight="81"></player>
+    <player first="Albano" height="193" id="14907" last="Bizzarri" weight="89"></player>
+    <player first="Nick" height="178" id="16097" last="Rimando" weight="83"></player>
+    <player first="Noel" height="173" id="16177" last="Hunt" weight="74"></player>
+    <player first="Tim" height="191" id="16254" last="Howard" weight="88"></player>
+    <player first="Timmy" height="186" id="17605" last="Simons" weight="80"></player>
+    <player first="Aaron" height="183" id="17725" last="Hughes" weight="70"></player>
+    <player commonName="Rúben Fernandes" first="Rúben Miguel" height="185" id="18115"
+        jerseyName="Ruben" last="Santos Fernandes" weight="78"></player>
+    <player first="Nicolas" height="185" id="18122" last="Penneteau" weight="78"></player>
+    <player first="Magne" height="186" id="18289" last="Hoseth" weight="80"></player>
+    <player first="Mark" height="181" id="18745" last="Tyler" weight="83"></player>
+    <player first="Luke" height="188" id="18771" last="Steele" weight="76"></player>
+    <player first="Clint" height="183" id="19104" last="Hill" weight="73"></player>
+    <player first="Iain" height="170" id="19119" last="Hume" weight="68"></player>
+    <player first="James" height="188" id="19292" last="Collins" weight="83"></player>
+    <player first="Steve" height="193" id="19332" last="Mildenhall" weight="89"></player>
+    <player first="Alex" height="191" id="19410" last="Revell" weight="78"></player>
+    <player first="Jabo" height="194" id="19521" last="Ibehre" weight="92"></player>
+    <player first="Glenn" height="183" id="19541" last="Morris" weight="70"></player>
+    <player first="Arkadiusz" height="186" id="19687" last="Głowacki" weight="78"></player>
+    <player first="Dean" height="183" id="19874" last="Whitehead" weight="77"></player>
+    <player commonName="Ricardo Costa" first="Ricardo Miguel" height="183" id="20209"
+        jerseyName="R. Costa" last="Moreira Costa" weight="80"></player>
+    <player first="Yaya" height="189" id="20289" jerseyName="Toure Yaya" last="Touré"
+        weight="90"></player>
+    <player first="Andreas" height="196" id="20551" last="Isaksson" weight="77"></player>
+    <player first="Joakim" height="185" id="20689" last="Karlsson" weight="74"></player>
+    <player first="Kennedy" height="181" id="20699" jerseyName="Kennedy" last="Bakırcıoğlu"
+        weight="77"></player>
+    <player commonName="Quim" first="Joaquim Manuel" height="182" id="20731" last="Sampaio Silva"
+        weight="80"></player>
+    <player commonName="Quaresma" first="Ricardo Andrade" height="175" id="20775"
+        last="Quaresma Bernardo" weight="67"></player>
+    <player commonName="Cristiano Ronaldo" first="C. Ronaldo" height="185" id="20801"
+        jerseyName="Ronaldo" last="dos Santos Aveiro" weight="80"></player>
+    <player first="Michael" height="188" id="21146" last="Carrick" weight="74"></player>
+    <player first="Raffaele" height="165" id="22391" last="Cretaro" weight="66"></player>
+    <player first="Andreas" height="184" id="23823" jerseyName="A. Johansson" last="Johansson"
+        weight="72"></player>
+    <player first="David" height="170" id="24248" last="Pizarro" weight="65"></player>
+    <player commonName="José Reina" first="José Manuel" height="188" id="24630" jerseyName="Reina"
+        last="Reina Páez" weight="92"></player>
+    <player first="Claudio" height="184" id="25420" last="Pizarro" weight="84"></player>
+    <player first="Rafael" height="184" id="26709" jerseyName="R.Márquez" last="Márquez"
+        weight="75"></player>
+    <player first="Theo" height="188" id="27480" last="Zwarthoed" weight="88"></player>
+    <player first="Dorus" height="190" id="27532" last="de Vries" weight="96"></player>
+    <player commonName="Ronaldinho" first="Ronaldo" height="180" id="28130" last="de Assis Moreira"
+        weight="78"></player>
+    <player first="Steven" height="173" id="28178" last="Hammell" weight="78"></player>
+    <player first="Romeo" height="170" id="28230" last="Castelen" weight="68"></player>
+    <player first="Kim" height="185" id="31831" last="Källström" weight="83"></player>
+    <player first="Johan" height="188" id="32740" last="Wiland" weight="78"></player>
+    <player first="Ashley" height="176" id="34079" last="Cole" weight="66"></player>
+    <player first="Antonio" height="183" id="34824" last="Floro Flores" weight="78"></player>
+    <player first="Kyle" height="177" id="36111" last="Beckerman" weight="70"></player>
+    <player commonName="Ronaldo" first="Ronaldo Luís" height="183" id="37576" last="Nazário de Lima"
+        weight="78"></player>
+    <player first="DaMarcus" height="172" id="39386" last="Beasley" weight="68"></player>
+    <player first="Shola" height="191" id="41233" last="Ameobi" weight="95"></player>
+        <player first="Zlatan" height="195" id="41236" last="Ibrahimović" weight="95"></player>
+    <player first="Benoît" height="182" id="41734" last="Cheyrou" weight="79"></player>
+    <player first="Gaël" height="176" id="41835" last="Danic" weight="65"></player>
+    <player first="Benoît" height="178" id="41874" last="Pedretti" weight="72"></player>
+    <player first="Nils-Eric" height="187" id="44960" last="Johansson" weight="88"></player>
+    <player first="Steve" height="183" id="45083" last="von Bergen" weight="77"></player>
+    <player first="Morten" height="186" id="45104" jerseyName="Duncan" last="Rasmussen"
+        weight="89"></player>
+    <player first="Daniele" height="181" id="45129" last="Cacia" weight="74"></player>
+    <player commonName="Joaquín" first="Joaquín" height="179" id="45186" last="Sánchez Rodríguez"
+        weight="75"></player>
+    <player first="Christian" height="183" id="45473" last="Tiffert" weight="80"></player>
+    <player first="Mikael" height="189" id="45534" last="Antonsson" weight="80"></player>
+    <player first="Tobias" height="178" id="45548" last="Hysén" weight="83"></player>
+    <player first="Rafael" height="176" id="45574" last="van der Vaart" weight="74"></player>
+    <player first="Daniele" height="183" id="45595" last="Bonera" weight="74"></player>
+    <player first="Matteo" height="178" id="45605" last="Brighi" weight="77"></player>
+    <player first="Ivan" height="194" id="45702" last="Pelizzoli" weight="89"></player>
+    <player first="Jonas" height="193" id="45842" last="Olsson" weight="84"></player>
+    <player first="Alexander" height="182" id="45874" last="Farnerud" weight="73"></player>
+    <player first="Markus" height="184" id="46175" last="Rosenberg" weight="83"></player>
+    <player first="Christopher" height="195" id="46590" last="Samba" weight="100"></player>
+    <player first="Emiliano" height="182" id="46736" last="Moretti" weight="77"></player>
+    <player first="Morten Gamst" height="183" id="46857" jerseyName="Gamst" last="Pedersen"
+        weight="74"></player>
+    <player first="Kevin" height="185" id="47020" last="Begois" weight="79"></player>
+    <player first="Silvio" height="186" id="47201" last="Proto" weight="77"></player>
+    <player first="Abdou Kader" height="193" id="47860" last="Mangane" weight="90"></player>
+    <player commonName="Júlio César" first="Júlio César" height="186" id="48717"
+        jerseyName="Julio Cesar" last="Soares Espíndola" weight="79"></player>
+    <player first="Fabricio" height="184" id="48745" last="Coloccini" weight="83"></player>
+    <player first="Petr" height="196" id="48940" jerseyName="Cech" last="Čech" weight="90"></player>
+    <player first="Allan" height="183" id="49000" last="McGregor" weight="84"></player>
+    <player first="Andrea" height="194" id="49026" last="Caracciolo" weight="80"></player>
+    <player first="Stefano" height="186" id="49031" last="Sorrentino" weight="86"></player>
+    <player first="Kris" height="185" id="49045" last="Boyd" weight="83"></player>
+    <player first="Olivier" height="183" id="49161" last="Deschacht" weight="81"></player>
+    <player first="Julián" height="186" id="49212" last="Speroni" weight="80"></player>
+    <player commonName="Fernando Torres" first="Fernando José" height="186" id="49369"
+        jerseyName="F. Torres" last="Torres Sanz" weight="78"></player>
+    <player first="Thiago" height="187" id="49370" jerseyName="Thiago Motta" last="Motta"
+        weight="83"></player>
+    <player first="Ludovic" height="190" id="49472" last="Butelle" weight="86"></player>
+    <player first="Bartholomew" height="177" id="49486" last="Ogbeche" weight="78"></player>
+    <player first="Etienne" height="178" id="49488" last="Didot" weight="65"></player>
+    <player first="Frode" height="194" id="49511" last="Kippe" weight="97"></player>
+    <player first="Jon" height="183" id="49589" last="Jönsson" weight="75"></player>
+    <player first="Karim" height="169" id="49659" last="Ziani" weight="66"></player>
+    <player first="Jakob" height="181" id="49756" last="Poulsen" weight="74"></player>
+    <player first="Alain" height="190" id="49939" last="Nef" weight="88"></player>
+    <player first="Philippe" height="190" id="49966" last="Senderos" weight="84"></player>
+    <player first="Souleymane" height="174" id="50294" last="Camara" weight="75"></player>
+    <player first="Julio" height="180" id="50429" jerseyName="Julio H.L.M." last="Álvarez"
+        weight="71"></player>
+    <player first="Jermain" height="171" id="50542" last="Defoe" weight="65"></player>
+    <player first="Darren" height="180" id="50598" last="Bent" weight="73"></player>
+    <player first="Peter" height="188" id="50632" last="Clarke" weight="83"></player>
+    <player first="Stuart" height="198" id="50723" last="Taylor" weight="85"></player>
+    <player first="Luke" height="176" id="50816" last="Wilkshire" weight="78"></player>
+    <player first="Johan" height="170" id="50955" last="Cavalli" weight="65"></player>
+    <player first="Maurizio" height="185" id="51101" last="Domizzi" weight="80"></player>
+    <player first="Morten" height="183" id="51116" jerseyName="Skjønsberg"
+        last="Morisbak Skjønsberg" weight="80"></player>
+    <player first="Mathieu" height="190" id="51123" last="Bodmer" weight="90"></player>
+    <player first="Nelson" height="175" id="51159" last="Ferreira" weight="72"></player>
+    <player first="Peter" height="201" id="51257" last="Crouch" weight="75"></player>
+    <player first="Boaz" height="191" id="51261" last="Myhill" weight="92"></player>
+    <player first="Kenny" height="178" id="51353" last="Miller" weight="71"></player>
+    <player first="Kevin" height="183" id="51394" last="Nolan" weight="88"></player>
+    <player first="Tim" height="178" id="51412" last="Cahill" weight="75"></player>
+    <player first="Don" height="178" id="51513" last="Cowie" weight="73"></player>
+    <player first="Edwin" height="197" id="51539" last="van der Sar" weight="83"></player>
+    <player first="Cédric" height="182" id="51620" last="Varrault" weight="76"></player>
+    <player first="Massimo" height="180" id="51730" last="Maccarone" weight="70"></player>
+    <player first="Anthony" height="184" id="51887" last="Le Tallec" weight="73"></player>
+    <player first="Bruno" height="173" id="51910" last="Grougi" weight="70"></player>
+    <player first="Adam" height="178" id="51921" last="Chambers" weight="71"></player>
+    <player first="Patrice" height="174" id="52091" last="Evra" weight="75"></player>
+    <player first="Florent" height="168" id="52126" last="Balmont" weight="72"></player>
+    <player first="Jonas" height="186" id="52201" jerseyName="J. Johansen" last="Johansen"
+        weight="78"></player>
+    <player first="Henrik" height="178" id="52241" last="Larsson" weight="76"></player>
+    <player first="Heiko" height="190" id="52270" last="Westermann" weight="87"></player>
+    <player first="Chris" height="185" id="52306" last="Brunt" weight="84"></player>
+    <player first="Eldin" height="191" id="52326" last="Jakupović" weight="85"></player>
+    <player first="Mijat" height="188" id="52340" jerseyName="Maric" last="Marić"
+        weight="83"></player>
+    <player first="Bjørn Helge" height="175" id="52474" jerseyName="B.H.Riise" last="Riise"
+        weight="74"></player>
+    <player first="Espen" height="189" id="52491" jerseyName="Bugge" last="Bugge Pettersen"
+        weight="88"></player>
+    <player first="Matthias" height="179" id="52498" last="Lehmann" weight="75"></player>
+    <player first="Joe" height="188" id="52679" last="Murphy" weight="88"></player>
+    <player first="Tranquillo" height="178" id="52752" last="Barnetta" weight="70"></player>
+    <player first="Alain" height="182" id="52778" last="Rochat" weight="78"></player>
+    <player first="Cristian" height="180" id="52797" last="Ledesma" weight="78"></player>
+    <player commonName="Camacho" first="Juan Jose" height="181" id="52842" last="Camacho Barnola"
+        weight="75"></player>
+    <player commonName="Fernando Navarro" first="Fernando" height="177" id="53014"
+        jerseyName="F. Navarro" last="Navarro Corbacho" weight="68"></player>
+    <player first="Alaeddine" height="187" id="53027" last="Yahia" weight="81"></player>
+    <player first="Emmanuel" height="191" id="53050" last="Adebayor" weight="82"></player>
+    <player first="Stefan" height="177" id="53073" last="Kulovits" weight="70"></player>
+    <player first="Steffen" height="173" id="53074" last="Hofmann" weight="72"></player>
+    <player first="Craig" height="193" id="53110" last="Gordon" weight="83"></player>
+    <player first="Daniele" height="184" id="53302" last="De Rossi" weight="83"></player>
+    <player first="Dannie" height="175" id="53352" last="Bulman" weight="75"></player>
+    <player first="Adam" height="191" id="53363" last="Collin" weight="78"></player>
+    <player first="Anton" height="183" id="53412" last="Ferdinand" weight="71"></player>
+    <player first="Daniel" height="178" id="53502" jerseyName="D. Sjölund" last="Sjölund"
+        weight="80"></player>
+    <player first="Danny" height="183" id="53506" last="Coyne" weight="83"></player>
+    <player commonName="Paulo Lopes" first="Paulo Jorge" height="184" id="53525" last="Pedro Lopes"
+        weight="76"></player>
+    <player first="Nigel" height="174" id="53578" last="de Jong" weight="72"></player>
+    <player first="Gary" height="173" id="53593" last="O'Neil" weight="61"></player>
+    <player first="Gordon" height="192" id="53604" last="Greer" weight="84"></player>
+    <player first="Per" height="198" id="53612" last="Mertesacker" weight="90"></player>
+    <player first="Jelle" height="191" id="53630" last="Van Damme" weight="90"></player>
+    <player first="Barry" height="179" id="53632" last="Molloy" weight="84"></player>
+    <player first="Jimmy" height="180" id="53643" last="Walker" weight="84"></player>
+    <player first="Lars" height="190" id="53729" last="Hirschfeld" weight="86"></player>
+    <player first="Lee" height="183" id="53736" last="Camp" weight="74"></player>
+    <player first="Lee" height="193" id="53739" last="Grant" weight="83"></player>
+    <player first="Lee" height="175" id="53741" last="Holmes" weight="66"></player>
+    <player first="Lewis" height="191" id="53756" last="Price" weight="85"></player>
+    <player first="Sigamary" height="176" id="53760" jerseyName="S. Diarra" last="Diarra"
+        weight="74"></player>
+    <player commonName="Deco" first="Anderson Luís" height="174" id="53769" last="de Souza"
+        weight="73"></player>
+    <player first="Marc" height="180" id="53778" last="Richards" weight="81"></player>
+    <player first="Matt" height="173" id="53818" last="Bloomfield" weight="73"></player>
+    <player first="Matt" height="177" id="53827" last="Taylor" weight="73"></player>
+    <player first="Michael" height="176" id="53832" last="Brown" weight="77"></player>
+    <player first="Michael" height="183" id="53842" last="Tonge" weight="74"></player>
+    <player first="Nathan" height="183" id="53855" last="Tyson" weight="64"></player>
+    <player first="Phil" height="180" id="53914" last="Jagielka" weight="87"></player>
+    <player first="Sam" height="183" id="53960" last="Russell" weight="70"></player>
+    <player first="Stephen" height="175" id="53998" last="Warnock" weight="76"></player>
+    <player first="Stephen" height="185" id="54008" last="Bywater" weight="81"></player>
+    <player first="Stewart" height="180" id="54013" last="Downing" weight="64"></player>
+    <player first="Peter" height="191" id="54018" last="Niemeyer" weight="83"></player>
+    <player first="Tom" height="188" id="54033" last="Huddlestone" weight="80"></player>
+    <player first="Tommaso" height="185" id="54037" last="Berni" weight="80"></player>
+    <player first="Wayne" height="176" id="54050" last="Rooney" weight="83"></player>
+    <player first="Wayne" height="170" id="54051" last="Routledge" weight="77"></player>
+    <player first="Brian" height="185" id="100557" last="Barry-Murphy" weight="78"></player>
+    <player first="Karl" height="185" id="100803" last="Henry" weight="80"></player>
+    <player first="Steve" height="185" id="100899" last="Phillips" weight="75"></player>
+    <player first="Michael" height="189" id="101317" last="Ratajczak" weight="85"></player>
+    <player first="Otto" height="189" id="101344" last="Fredrikson" weight="90"></player>
+    <player first="Tomasz" height="191" id="101473" last="Kuszczak" weight="84"></player>
+    <player first="Daniel" height="188" id="101488" last="Haas" weight="86"></player>
+    <player first="Tim" height="176" id="101769" last="Gorschlüter" weight="66"></player>
+    <player first="Rob" height="191" id="101880" last="Green" weight="93"></player>
+    <player first="Alessandro" height="177" id="101904" last="Frara" weight="72"></player>
+    <player first="Simone" height="179" id="102056" last="Padoin" weight="74"></player>
+    <player first="Claudio" height="180" id="102064" last="Terzi" weight="69"></player>
+    <player first="Craig" height="175" id="102593" last="Woodman" weight="68"></player>
+    <player first="Kyriakos" height="188" id="102881" last="Stamatopoulos" weight="80"></player>
+    <player first="Andrea" height="170" id="103496" last="Cossu" weight="64"></player>
+    <player first="Alberto" height="186" id="103935" last="Aquilani" weight="79"></player>
+    <player first="Rune Almenning" height="190" id="104389" last="Jarstein" weight="82"></player>
+    <player first="Chris" height="175" id="104442" last="Burke" weight="68"></player>
+    <player first="Christian" height="179" id="104476" last="Grindheim" weight="74"></player>
+    <player first="Daniel" height="184" id="104702" last="Braaten" weight="94"></player>
+    <player first="Barry" height="193" id="104737" last="Roche" weight="90"></player>
+    <player first="Anders" height="189" id="105046" last="Østli" weight="85"></player>
+    <player first="Jean-François" height="181" id="105308" last="Gillet" weight="86"></player>
+    <player first="Jaime" height="175" id="105318" last="Valdés" weight="74"></player>
+    <player first="Łukasz" height="190" id="105533" last="Załuska" weight="88"></player>
+    <player first="Paweł" height="180" id="105827" jerseyName="Paweł Brożek" last="Brożek"
+        weight="79"></player>
+    <player first="Artur" height="193" id="105846" last="Boruc" weight="87"></player>
+    <player first="Cesare" height="181" id="105866" last="Bovo" weight="79"></player>
+    <player commonName="Aduriz" first="Aritz" height="182" id="106231" last="Aduriz Zubeldia"
+        weight="78"></player>
+    <player first="Gianluca" height="183" id="106795" last="Pegolo" weight="76"></player>
+    <player first="Davide" height="185" id="106874" last="Brivio" weight="82"></player>
+    <player first="Michael" height="195" id="107084" last="Langer" weight="87"></player>
+    <player first="Cyrille" height="180" id="107261" last="Merville" weight="78"></player>
+    <player first="Fahid" height="172" id="107263" jerseyName="B.Khalfallah" last="Ben Khalfallah"
+        weight="73"></player>
+    <player first="Yohann" height="196" id="107298" jerseyName="Pele" last="Pelé"
+        weight="89"></player>
+    <player first="Mickaël" height="175" id="107305" last="Tacalfred" weight="69"></player>
+    <player first="Federico" height="191" id="107579" last="Agliardi" weight="86"></player>
+    <player first="Hamit" height="183" id="107647" last="Altıntop" weight="82"></player>
+    <player first="Halil" height="186" id="107651" last="Altıntop" weight="75"></player>
+    <player first="Tom" height="194" id="107713" last="Starke" weight="98"></player>
+    <player first="Veroljub" height="186" id="108060" last="Salatić" weight="86"></player>
+    <player first="Reto" height="183" id="108061" last="Ziegler" weight="79"></player>
+    <player first="Stephan" height="182" id="108080" last="Lichtsteiner" weight="75"></player>
+    <player first="Bram" height="191" id="109493" last="Castro" weight="83"></player>
+    <player first="Gareth" height="191" id="109852" last="McAuley" weight="89"></player>
+    <player commonName="Dorado" first="José Antonio" height="180" id="110019"
+        jerseyName="A.M.N.Dorado" last="Dorado Ramírez" weight="70"></player>
+    <player first="Alan" height="188" id="110606" last="Mannus" weight="92"></player>
+    <player commonName="Cifuentes" first="Alberto" height="190" id="110638"
+        last="Cifuentes Martínez" weight="80"></player>
+    <player commonName="Moyá" first="Miguel Ángel" height="189" id="110677" last="Moyá Rumbo"
+        weight="82"></player>
+    <player commonName="Borja Fernández" first="Borja" height="185" id="110787"
+        jerseyName="Borja F.F." last="Fernández Fernández" weight="73"></player>
+    <player commonName="Riesgo" first="Asier" height="185" id="110974" last="Riesgo Unamuno"
+        weight="76"></player>
+    <player commonName="David Navarro" first="David" height="188" id="111022" jerseyName="Navarro"
+        last="Navarro Pedrós" weight="82"></player>
+    <player commonName="Abel Gómez" first="Abel" height="182" id="111085" jerseyName="Abel A."
+        last="Gómez Moreno" weight="75"></player>
+    <player commonName="Reyes" first="José Antonio" height="176" id="111093" last="Reyes Calderón"
+        weight="79"></player>
+    <player first="Oguchi" height="196" id="111125" last="Onyewu" weight="95"></player>
+    <player first="Steeve" height="187" id="111163" last="Elana" weight="85"></player>
+    <player first="Sascha" height="174" id="111206" last="Riether" weight="70"></player>
+    <player first="Luke" height="183" id="111328" last="McCormick" weight="88"></player>
+    <player first="Chaouki" height="170" id="111503" last="Ben Saada" weight="65"></player>
+    <player first="Liam" height="183" id="111590" last="Feeney" weight="76"></player>
+    <player first="Carlos Idriss" height="186" id="111661" last="Kameni" weight="86"></player>
+    <player first="Jaroslav" height="184" id="112244" jerseyName="Plasil" last="Plašil"
+        weight="71"></player>
+    <player first="Jérémy" height="183" id="112253" last="Toulalan" weight="86"></player>
+    <player first="Jérémy" height="189" id="112316" last="Mathieu" weight="84"></player>
+    <player first="François" height="183" id="112362" last="Zoko" weight="75"></player>
+    <player first="Renaud" height="180" id="112365" last="Cohade" weight="74"></player>
+    <player first="Arnaud" height="183" id="112373" last="Balijon" weight="80"></player>
+    <player first="Thibault" height="172" id="112389" last="Giresse" weight="69"></player>
+    <player first="Sergey" height="187" id="112542" last="Ignashevich" weight="84"></player>
+    <player first="Jermaine" height="184" id="112847" last="Jones" weight="78"></player>
+    <player first="Mauricio" height="187" id="113045" last="Pinilla" weight="78"></player>
+    <player commonName="David Villa" first="David" height="175" id="113422" last="Villa Sánchez"
+        weight="69"></player>
+    <player commonName="Seguín" first="Aitor" height="179" id="113456" last="Seguín Cid"
+        weight="70"></player>
+    <player first="Marco" height="185" id="114356" last="Wölfli" weight="83"></player>
+    <player commonName="Iraizoz" first="Gorka" height="191" id="114764" last="Iraizoz Moreno"
+        weight="89"></player>
+    <player first="Diego" height="194" id="115533" last="Benaglio" weight="89"></player>
+    <player first="Christofer" height="194" id="115888" last="Heimeroth" weight="91"></player>
+    <player commonName="Rubén Castro" first="Rubén" height="174" id="115909" last="Castro Martín"
+        weight="72"></player>
+    <player first="Rod" height="186" id="116308" last="Fanni" weight="78"></player>
+    <player first="David" height="188" id="116314" last="Martin" weight="86"></player>
+    <player first="Youssouf" height="183" id="116368" last="Hadji" weight="78"></player>
+    <player first="Cédric" height="187" id="116494" last="Carrasso" weight="93"></player>
+    <player first="Sébastien" height="174" id="116762" last="Roudet" weight="71"></player>
+    <player first="Damien" height="186" id="116917" last="Perquis" weight="82"></player>
+    <player first="Nicolas" height="185" id="117063" last="Douchez" weight="85"></player>
+    <player first="Ian" height="178" id="118646" last="Henderson" weight="67"></player>
+    <player first="Paul" height="183" id="118662" last="Hayes" weight="82"></player>
+    <player first="Andy" height="192" id="118794" last="Lonergan" weight="87"></player>
+    <player first="Christoffer" height="193" id="118868" last="Källqvist" weight="96"></player>
+    <player first="Tyrone" height="180" id="119233" last="Mears" weight="74"></player>
+    <player first="Pier Graziano" height="189" id="120243" last="Gori" weight="83"></player>
+    <player first="Steffen" height="182" id="120280" last="Rasmussen" weight="85"></player>
+    <player first="Laurent" height="183" id="120306" last="Pionnier" weight="77"></player>
+    <player first="Michael" height="188" id="120312" last="Dawson" weight="76"></player>
+    <player first="Scott" height="191" id="120415" last="Shearer" weight="89"></player>
+    <player commonName="Pepe" first="Képler Laveran" height="188" id="120533" last="Lima Ferreira"
+        weight="81"></player>
+    <player first="Fabio" height="197" id="120718" last="Coltorti" weight="95"></player>
+    <player first="Alexander" height="189" id="121134" last="Walke" weight="88"></player>
+    <player first="Alexander" height="196" id="121170" jerseyName="Alex Meier" last="Meier"
+        weight="96"></player>
+    <player first="Christian" height="185" id="121185" last="Schulz" weight="80"></player>
+    <player first="René" height="191" id="121933" last="Adler" weight="85"></player>
+    <player first="Michael" height="191" id="121937" last="Rensing" weight="93"></player>
+    <player first="Bastian" height="183" id="121944" last="Schweinsteiger" weight="79"></player>
+    <player first="André" height="186" id="121980" last="Poggenborg" weight="85"></player>
+    <player first="Lukas" height="185" id="121988" last="Kruse" weight="84"></player>
+    <player first="Ronny" height="190" id="122066" last="König" weight="93"></player>
+    <player first="Marco" height="179" id="122361" last="Donadel" weight="73"></player>
+    <player first="Tommy" height="187" id="122541" last="Naurin" weight="86"></player>
+    <player first="Steven" height="185" id="122574" last="Whittaker" weight="87"></player>
+    <player first="Logan" height="189" id="122649" last="Bailly" weight="90"></player>
+    <player first="Philipp" height="193" id="122718" last="Heerwagen" weight="89"></player>
+    <player first="Maximilian" height="185" id="122723" last="Nicu" weight="75"></player>
+    <player first="Arouna" height="182" id="122849" jerseyName="Kone. A" last="Koné"
+        weight="81"></player>
+    <player first="Antoni" height="187" id="123159" last="Łukasiewicz" weight="85"></player>
+    <player first="Marco" height="185" id="123576" last="Borriello" weight="85"></player>
+    <player first="Michael" height="190" id="123586" last="Agazzi" weight="80"></player>
+    <player first="Hugo" height="181" id="123603" last="Campagnaro" weight="85"></player>
+    <player first="Andrea" height="185" id="123611" last="Mantovani" weight="77"></player>
+    <player first="Sulley" height="179" id="123621" last="Muntari" weight="76"></player>
+    <player first="Ali" height="186" id="124337" jerseyName="Ali Turan" last="Turan"
+        weight="81"></player>
+    <player first="Burak" height="188" id="124375" jerseyName="Burak" last="Yılmaz"
+        weight="77"></player>
+    <player first="Selçuk" height="182" id="124607" jerseyName="Selçuk İnan" last="İnan"
+        weight="74"></player>
+    <player first="Mehmet" height="187" id="124635" jerseyName="M. Topal" last="Topal"
+        weight="82"></player>
+    <player first="Sabri" height="170" id="124949" jerseyName="Sabri" last="Sarıoğlu"
+        weight="65"></player>
+    <player first="Orhan" height="181" id="125103" last="Şam" weight="74"></player>
+    <player first="Bora" height="187" id="125132" jerseyName="Bora" last="Körk"
+        weight="73"></player>
+    <player first="Ersan" height="185" id="125167" last="Gülüm" weight="85"></player>
+    <player first="Hakan" height="192" id="125397" last="Arıkan" weight="93"></player>
+    <player first="Stephan" height="188" id="125586" last="Andersen" weight="82"></player>
+    <player first="Hasan Ali" height="183" id="125871" jerseyName="H. Kaldırım" last="Kaldırım"
+        weight="75"></player>
+    <player first="Umut" height="184" id="125995" jerseyName="Umut Bulut" last="Bulut"
+        weight="75"></player>
+    <player first="Abdullah" height="181" id="126883" jerseyName="Abdullah Durak" last="Durak"
+        weight="80"></player>
+    <player first="Merter" height="192" id="126909" jerseyName="Merter" last="Yüce"
+        weight="84"></player>
+    <player first="Ufuk" height="194" id="128529" last="Ceylan" weight="85"></player>
+    <player first="Paul" height="183" id="129566" last="McShane" weight="81"></player>
+    <player first="Rasmus" height="179" id="131444" last="Würtz" weight="72"></player>
+    <player first="Jesper" height="188" id="132740" last="Hansen" weight="78"></player>
+    <player first="Emil" height="185" id="133249" jerseyName="Halfredsson" last="Hallfredsson"
+        weight="83"></player>
+    <player first="Jesper" height="182" id="134734" last="Westerberg" weight="80"></player>
+    <player first="Atiba" height="187" id="134744" last="Hutchinson" weight="83"></player>
+    <player first="Grégory" height="187" id="134777" last="Bourillon" weight="74"></player>
+    <player first="Jimmy" height="181" id="134779" last="Briand" weight="84"></player>
+    <player first="Dean" height="180" id="134792" last="Bowditch" weight="72"></player>
+    <player first="Alexander" height="177" id="134811" last="Ludwig" weight="70"></player>
+    <player first="Scott" height="175" id="134820" last="Brown" weight="74"></player>
+    <player first="Kirk" height="191" id="134828" last="Broadfoot" weight="89"></player>
+    <player first="Roberto" height="183" id="134895" last="Hilbert" weight="80"></player>
+    <player first="Steve" height="178" id="134941" last="Sidwell" weight="80"></player>
+    <player first="Robbie" height="174" id="134968" last="Haemhouts" weight="63"></player>
+    <player first="Niki" height="178" id="135032" last="Zimling" weight="73"></player>
+    <player first="Anders" height="193" id="135043" last="Lindegaard" weight="79"></player>
+    <player first="Jim" height="178" id="135056" last="McAlister" weight="83"></player>
+    <player first="Chris" height="175" id="135061" last="Millar" weight="65"></player>
+    <player first="Michael" height="175" id="135190" last="Liendl" weight="74"></player>
+    <player first="Damien" height="185" id="135218" last="Perquis" weight="81"></player>
+    <player commonName="Rodolfo" first="Rodolfo" height="185" id="135303" last="Dantas Bispo"
+        weight="86"></player>
+    <player commonName="Eduardo" first="Eduardo" height="183" id="135311" last="Pincelli"
+        weight="79"></player>
+    <player commonName="Gomes" first="Heurelho" height="191" id="135451" last="Silva Gomes"
+        weight="91"></player>
+    <player commonName="Artur Moraes" first="Artur Guilherme" height="193" id="135466"
+        jerseyName="Artur" last="Moraes Gusmão" weight="95"></player>
+    <player commonName="Fernandinho" first="Fernando Luiz" height="179" id="135507" last="Rosa"
+        weight="67"></player>
+    <player first="Niki" height="190" id="135587" last="Mäenpää" weight="86"></player>
+    <player first="Pablo" height="184" id="135647" last="Calandria" weight="76"></player>
+    <player commonName="Sergio García" first="Sergio" height="174" id="135697"
+        jerseyName="S. García" last="García de la Fuente" weight="72"></player>
+    <player commonName="Alexis" first="Alexis" height="183" id="135742" last="Ruano Delgado"
+        weight="75"></player>
+    <player commonName="Alex Geijo" first="Alexandre" height="188" id="135743" last="Geijo Pazos"
+        weight="81"></player>
+    <player first="Simon" height="183" id="135883" last="Francis" weight="90"></player>
+    <player first="Killian" height="188" id="135891" last="Overmeire" weight="84"></player>
+    <player first="Wes" height="186" id="136113" last="Morgan" weight="101"></player>
+    <player commonName="Han Jae Woong" first="Jae Woong" height="178" id="136248"
+        jerseyName="JaeWoong" last="Han" weight="72"></player>
+    <player commonName="Jung Jo Gook" first="Jo Gook" height="186" id="136363" jerseyName="JoGook"
+        last="Jung" weight="78"></player>
+    <player commonName="Lee Jong Min" first="Jong Min" height="175" id="136365" jerseyName="JongMin"
+        last="Lee" weight="68"></player>
+    <player commonName="Hyun Young Min" first="Young Min" height="179" id="136445"
+        jerseyName="YoungMin" last="Hyun" weight="73"></player>
+    <player commonName="Cho Sung Hwan" first="Sung Hwan" height="184" id="136504"
+        jerseyName="SungHwan" last="Cho" weight="78"></player>
+    <player commonName="Lee Dong Gook" first="Dong Gook" height="187" id="136553"
+        jerseyName="DongGook" last="Lee" weight="83"></player>
+    <player commonName="Kim Yong Dae" first="Yong Dae" height="189" id="136601" jerseyName="YongDae"
+        last="Kim" weight="81"></player>
+    <player commonName="Kim Chi Gon" first="Chi Gon" height="183" id="136631" jerseyName="ChiGon"
+        last="Kim" weight="76"></player>
+    <player first="Bogdan" height="185" id="136875" last="Lobonţ" weight="78"></player>
+    <player first="Zoltán" height="183" id="137089" last="Gera" weight="75"></player>
+    <player first="Stijn" height="177" id="137109" last="Schaars" weight="70"></player>
+    <player first="Michaël" height="192" id="137114" last="Ciani" weight="88"></player>
+    <player first="Brian" height="178" id="137163" last="Carroll" weight="70"></player>
+    <player first="Paul" height="191" id="137166" last="Jones" weight="83"></player>
+    <player first="Andrea" height="187" id="137186" last="Barzagli" weight="87"></player>
+    <player first="Franco" height="168" id="137199" last="Brienza" weight="67"></player>
+    <player first="Stefan" height="191" id="137262" last="Kießling" weight="81"></player>
+    <player first="Ricardo" height="178" id="137267" last="Clark" weight="73"></player>
+    <player first="Aurélien" height="180" id="137321" last="Faivre" weight="72"></player>
+    <player first="Daniel" height="176" id="137351" last="Baier" weight="77"></player>
+    <player first="Simone" height="186" id="137356" last="Farelli" weight="78"></player>
+    <player first="Christophe" height="189" id="137359" last="Lepoint" weight="84"></player>
+    <player first="Giampaolo" height="180" id="137361" last="Pazzini" weight="77"></player>
+    <player first="Massimo" height="182" id="137373" last="Gobbi" weight="76"></player>
+    <player first="Mattia" height="184" id="137380" last="Cassani" weight="75"></player>
+    <player first="Daniele" height="173" id="137406" last="Croce" weight="70"></player>
+    <player first="Daniele" height="185" id="137410" last="Gastaldello" weight="77"></player>
+    <player first="Adriano" height="186" id="137419" last="Russo" weight="72"></player>
+    <player first="Jan-Ingwer" height="188" id="137449" last="Callsen-Bracker" weight="88"></player>
+    <player first="Alessandro" height="168" id="137460" last="Rosina" weight="69"></player>
+    <player first="Jürgen" height="186" id="137461" last="Gjasula" weight="87"></player>
+    <player first="Brian" height="178" id="137498" last="Wilson" weight="71"></player>
+    <player first="Goran" height="184" id="137506" last="Pandev" weight="75"></player>
+    <player first="Arnold" height="188" id="137510" last="Kruiswijk" weight="77"></player>
+    <player first="Rafael" height="186" id="137658" last="Kazior" weight="81"></player>
+    <player first="Jan" height="187" id="137661" last="Glinker" weight="81"></player>
+    <player first="Michel" height="184" id="137677" last="Vorm" weight="84"></player>
+    <player first="Anouar" height="173" id="137686" last="Hadouir" weight="70"></player>
+    <player first="Martin" height="188" id="137699" last="Stoll" weight="80"></player>
+    <player first="Florian" height="184" id="137708" last="Dick" weight="84"></player>
+    <player first="Simone" height="174" id="137758" last="Rizzato" weight="65"></player>
+    <player first="Domenico" height="184" id="137774" last="Maietta" weight="75"></player>
+    <player first="Glen" height="182" id="137782" last="Johnson" weight="78"></player>
+    <player first="Robert" height="191" id="137785" last="Huth" weight="99"></player>
+    <player first="Valerio" height="187" id="137786" last="Di Cesare" weight="75"></player>
+    <player commonName="Vágner Love" first="Vágner" height="171" id="137809"
+        jerseyName="Vagner Love" last="Silva de Souza" weight="72"></player>
+    <player first="Marco" height="187" id="137854" last="Storari" weight="76"></player>
+    <player first="Landry" height="184" id="137862" last="Bonnefoi" weight="72"></player>
+    <player first="Yann" height="176" id="137960" last="Jouffre" weight="74"></player>
+    <player first="Jordan" height="190" id="137987" jerseyName="Loties" last="Lotiès"
+        weight="82"></player>
+    <player first="Davino" height="194" id="138026" last="Verhulst" weight="90"></player>
+    <player first="Ludovic" height="174" id="138066" last="Obraniak" weight="72"></player>
+    <player first="Mickaël" height="179" id="138081" last="Chrétien" weight="69"></player>
+    <player first="Nicky" height="185" id="138083" last="Hunt" weight="86"></player>
+    <player first="Lasse" height="188" id="138086" last="Kryger" weight="79"></player>
+    <player first="Anders" height="189" id="138091" last="Egholm" weight="86"></player>
+    <player commonName="Bruno Alves" first="Bruno Eduardo" height="189" id="138110"
+        last="Regufe Alves" weight="81"></player>
+    <player first="John" height="170" id="138151" last="Welsh" weight="73"></player>
+    <player first="Darren" height="185" id="138153" last="Potter" weight="72"></player>
+    <player first="Jamal" height="170" id="138180" last="Campbell-Ryce" weight="78"></player>
+    <player first="Michael" height="193" id="138181" last="Turner" weight="90"></player>
+    <player first="Lloyd" height="173" id="138188" last="Sam" weight="73"></player>
+    <player first="Kevin" height="196" id="138247" last="Stuhr-Ellegaard" weight="93"></player>
+    <player first="Zander" height="189" id="138249" last="Diamond" weight="73"></player>
+    <player first="Richard" height="176" id="138251" last="Foster" weight="73"></player>
+    <player first="Lloyd" height="173" id="138279" last="Dyer" weight="70"></player>
+    <player first="Chris" height="181" id="138289" last="Baird" weight="74"></player>
+    <player first="Josh" height="193" id="138291" last="Saunders" weight="95"></player>
+    <player first="Arturo" height="175" id="138297" last="Alvarez" weight="77"></player>
+    <player commonName="Angulo" first="Igor" height="181" id="138306" last="Angulo Albóniga"
+        weight="77"></player>
+    <player first="Mounir" height="183" id="138334" last="El Hamdaoui" weight="84"></player>
+    <player first="Brett" height="177" id="138336" last="Holman" weight="75"></player>
+    <player first="Gino" height="180" id="138351" last="Coutinho" weight="74"></player>
+    <player first="Nadjim" height="175" id="138355" last="Abdou" weight="70"></player>
+    <player first="Marc" height="196" id="138384" last="Janko" weight="93"></player>
+    <player first="David" height="176" id="138390" last="Fox" weight="77"></player>
+    <player first="James" height="175" id="138412" last="Milner" weight="70"></player>
+    <player first="Matthew" height="188" id="138413" last="Kilgallon" weight="79"></player>
+    <player first="David" height="175" id="138427" last="Pipe" weight="77"></player>
+    <player first="Jonathan" height="183" id="138436" last="Walters" weight="79"></player>
+    <player commonName="Kaká" first="Ricardo Izecson" height="186" id="138449"
+        last="dos Santos Leite" weight="83"></player>
+    <player commonName="Gonçalo Brandão" first="Gonçalo" height="182" id="138462"
+        jerseyName="G. Brandão" last="Jardim Brandão" weight="76"></player>
+    <player first="David" height="191" id="138468" last="Rozehnal" weight="80"></player>
+    <player commonName="Amaya" first="Antonio" height="192" id="138497" jerseyName="A. Amaya"
+        last="Amaya Carazo" weight="86"></player>
+    <player commonName="Toño" first="Antonio" height="182" id="138507" jerseyName="Toño M."
+        last="Rodríguez Martínez" weight="81"></player>
+    <player first="Hassan" height="187" id="138673" last="Yebda" weight="82"></player>
+    <player first="Almen" height="180" id="138698" last="Abdi" weight="75"></player>
+    <player first="Blerim" height="179" id="138699" last="Džemaili" weight="73"></player>
+    <player first="Issa" height="173" id="138704" last="Cissokho" weight="73"></player>
+    <player first="Chris" height="191" id="138719" last="O'Grady" weight="78"></player>
+    <player first="Billy" height="180" id="138722" last="Jones" weight="77"></player>
+    <player first="Kasper" height="182" id="138729" last="Risgård" weight="79"></player>
+    <player first="Darren" height="183" id="138782" last="Fletcher" weight="83"></player>
+    <player first="Ben" height="188" id="138786" last="Williams" weight="86"></player>
+    <player first="Germán" height="185" id="138798" jerseyName="Poroto Lux" last="Lux"
+        weight="77"></player>
+    <player first="Maximiliano" height="190" id="138806" jerseyName="Maxi" last="López"
+        weight="88"></player>
+    <player first="Alejandro" height="175" id="138810" last="Domínguez" weight="73"></player>
+    <player first="Dean" height="183" id="138830" last="Lewington" weight="70"></player>
+    <player first="Evans" height="176" id="138909" last="Soligo" weight="73"></player>
+    <player first="Luca" height="185" id="138918" last="Rigoni" weight="76"></player>
+    <player first="Roberto" height="176" id="138920" last="Vitiello" weight="72"></player>
+    <player first="Bryan" height="177" id="138933" last="Bergougnoux" weight="79"></player>
+    <player first="Giorgio" height="187" id="138956" last="Chiellini" weight="85"></player>
+    <player commonName="Tiago Gomes" first="Tiago Henrique" height="177" id="138981"
+        jerseyName="T. Gomes" last="Damil Gomes" weight="80"></player>
+    <player first="Nicolás" height="183" id="139038" last="Burdisso" weight="81"></player>
+    <player first="Clemente" height="167" id="139057" jerseyName="C. Rodriguez" last="Rodríguez"
+        weight="65"></player>
+    <player first="Omar" height="180" id="139058" jerseyName="O.Perez" last="Pérez"
+        weight="82"></player>
+    <player first="Willy" height="186" id="139062" last="Caballero" weight="80"></player>
+    <player first="Leonardo" height="174" id="139064" last="Ponzio" weight="71"></player>
+    <player commonName="Nani" first="Luís Carlos" height="177" id="139068" last="Almeida da Cunha"
+        weight="68"></player>
+    <player first="Walter" height="168" id="139169" jerseyName="W.Erviti" last="Erviti"
+        weight="64"></player>
+    <player first="Luis" height="182" id="139213" last="Michel" weight="74"></player>
+    <player first="Carlos" height="176" id="139229" jerseyName="C. Salcido" last="Salcido"
+        weight="80"></player>
+    <player first="Fabián" height="177" id="139234" last="Vargas" weight="72"></player>
+    <player first="Daniel" height="187" id="139257" last="Lopar" weight="85"></player>
+    <player first="Davide" height="176" id="139259" last="Callà" weight="79"></player>
+    <player first="Boštjan" height="191" id="139274" last="Cesar" weight="89"></player>
+    <player first="David" height="180" id="139296" last="Nugent" weight="76"></player>
+    <player first="Markus" height="184" id="139311" last="Böcskör" weight="82"></player>
+    <player first="Christian" height="187" id="139313" last="Fuchs" weight="89"></player>
+    <player first="Jonathan" height="191" id="139317" last="Stead" weight="76"></player>
+    <player first="Antony" height="180" id="139348" last="Kay" weight="85"></player>
+    <player first="Robbie" height="180" id="139350" last="Williams" weight="71"></player>
+    <player first="Jason" height="193" id="139368" last="Shackell" weight="83"></player>
+    <player commonName="Oh Seung Bum" first="Seung Bum" height="174" id="139442"
+        jerseyName="SeungBum" last="Oh" weight="69"></player>
+    <player commonName="Cho Won Hee" first="Won Hee" height="177" id="139443" jerseyName="WonHee"
+        last="Cho" weight="72"></player>
+    <player first="Ian" height="191" id="139459" last="Evatt" weight="95"></player>
+    <player first="Greg" height="193" id="139475" last="Halford" weight="82"></player>
+    <player first="Dean" height="183" id="139476" last="Gerken" weight="77"></player>
+    <player first="Marcus" height="180" id="139482" last="Bean" weight="73"></player>
+    <player first="Francisco" height="171" id="139489" jerseyName="F. Torres" last="Torres"
+        weight="70"></player>
+    <player first="Alan" height="185" id="139533" last="Hutton" weight="73"></player>
+    <player first="James" height="189" id="139555" last="McPake" weight="80"></player>
+    <player first="Alessandro" height="169" id="139572" last="Cordaro" weight="69"></player>
+    <player commonName="Javi Guerra" first="Javier" height="178" id="139597" last="Guerra Rodríguez"
+        weight="76"></player>
+    <player first="Craig" height="171" id="139609" last="Conway" weight="67"></player>
+    <player first="Federico" height="188" id="139668" last="Marchetti" weight="83"></player>
+    <player first="Jos" height="194" id="139701" last="Hooiveld" weight="92"></player>
+    <player first="Vincent" height="193" id="139720" last="Kompany" weight="85"></player>
+    <player first="Frank" height="181" id="139727" last="Boeckx" weight="83"></player>
+    <player first="Santiago" height="183" id="139799" last="Silva" weight="84"></player>
+    <player first="Karim" height="170" id="139829" last="Djellabi" weight="63"></player>
+    <player first="Carl" height="184" id="139836" last="Medjani" weight="77"></player>
+    <player first="Jérémy" height="172" id="139860" last="Morel" weight="71"></player>
+    <player first="Joris" height="179" id="139862" jerseyName="J.Marveaux" last="Marveaux"
+        weight="72"></player>
+    <player first="Glenn" height="190" id="139866" last="Loovens" weight="74"></player>
+    <player first="Wesley" height="170" id="139869" last="Sneijder" weight="72"></player>
+    <player first="Vincent" height="184" id="139968" last="Enyeama" weight="87"></player>
+    <player first="Hossam" height="183" id="139974" last="Ghaly" weight="78"></player>
+    <player first="Darijo" height="178" id="139997" last="Srna" weight="72"></player>
+    <player first="Óscar" height="172" id="140029" jerseyName="O. Perez" last="Pérez"
+        weight="75"></player>
+    <player first="Juan Pablo" height="166" id="140038" jerseyName="J. P. Rodriguez"
+        last="Rodríguez" weight="68"></player>
+    <player commonName="Rafael" first="Rafael Pinheiro" height="187" id="140082"
+        last="Andrade Bittencourt" weight="80"></player>
+    <player first="Michael" height="188" id="140085" last="Nelson" weight="76"></player>
+    <player first="Vicente" height="170" id="140141" last="Sánchez" weight="66"></player>
+    <player first="Yosgart" height="189" id="140164" last="Gutiérrez" weight="86"></player>
+    <player first="Paulo" height="180" id="140222" last="Da Silva" weight="76"></player>
+    <player first="Guillermo" height="185" id="140233" last="Ochoa" weight="78"></player>
+    <player first="Yaír" height="185" id="140244" last="Urbina" weight="80"></player>
+    <player first="Darío" height="180" id="140256" jerseyName="S. Verón" last="Verón"
+        weight="84"></player>
+    <player first="David" height="167" id="140262" jerseyName="D. Toledo" last="Toledo"
+        weight="65"></player>
+    <player first="Javier" height="172" id="140271" jerseyName="Choro" last="Restrepo"
+        weight="75"></player>
+    <player commonName="Moreno" first="João Miguel" height="185" id="140284"
+        last="da Cunha Teixeira" weight="85"></player>
+    <player first="Antonio" height="193" id="140293" last="Mirante" weight="79"></player>
+    <player first="Peter" height="188" id="140300" last="Cherrie" weight="76"></player>
+    <player first="Leon" height="167" id="140415" last="Britton" weight="65"></player>
+    <player first="Richard" height="181" id="140418" last="Duffy" weight="65"></player>
+    <player first="Brian" height="183" id="140420" last="Murphy" weight="83"></player>
+    <player first="Alex" height="180" id="140422" last="Baptiste" weight="74"></player>
+    <player first="Jake" height="180" id="140423" last="Buxton" weight="83"></player>
+    <player first="Andy" height="183" id="140442" last="Butler" weight="83"></player>
+    <player first="Steven" height="180" id="140445" last="MacLean" weight="79"></player>
+    <player first="Michael" height="173" id="140451" last="Kightly" weight="71"></player>
+    <player first="Paddy" height="178" id="140453" last="McCourt" weight="70"></player>
+    <player first="Rory" height="181" id="140456" last="Patterson" weight="85"></player>
+    <player first="Ross" height="167" id="140497" last="Wallace" weight="64"></player>
+    <player first="David" height="190" id="140498" last="Marshall" weight="83"></player>
+    <player commonName="Edú" first="Eduardo" height="185" id="140526" last="Gonçalves"
+        weight="80"></player>
+    <player first="Enar" height="176" id="140618" last="Jääger" weight="73"></player>
+    <player first="Ragnar" height="187" id="140620" last="Klavan" weight="85"></player>
+    <player first="Boris" height="188" id="142244" last="Hüttenbrenner" weight="82"></player>
+    <player first="Sammy" height="187" id="142258" last="Bossut" weight="80"></player>
+    <player first="Dennis" height="184" id="142266" last="Flinta" weight="83"></player>
+    <player first="Johnny" height="180" id="142270" last="Thomsen" weight="74"></player>
+    <player first="Steffen" height="186" id="142271" last="Ernemann" weight="78"></player>
+    <player first="Alexandros" height="192" id="142329" last="Tziolis" weight="85"></player>
+    <player first="Mark" height="185" id="142333" last="McNulty" weight="74"></player>
+    <player first="Alessandro" height="182" id="142359" last="Lucarelli" weight="78"></player>
+    <player commonName="Verza" first="José Antonio" height="181" id="142454" last="García Rabasco"
+        weight="78"></player>
+    <player commonName="Aitor Sanz" first="Aitor" height="181" id="142499" last="Sanz Martín"
+        weight="71"></player>
+    <player first="Germano" height="186" id="142532" last="Vailati" weight="84"></player>
+    <player first="Israel" height="176" id="142592" last="Damonte" weight="72"></player>
+    <player first="Rodrigo" height="169" id="142670" last="Braña" weight="70"></player>
+    <player first="Leandro" height="187" id="142677" jerseyName="Desabato" last="Desábato"
+        weight="87"></player>
+    <player first="Mariano" height="175" id="142705" jerseyName="M.González" last="González"
+        weight="80"></player>
+    <player first="Lisandro" height="174" id="142707" jerseyName="Lisandro" last="López"
+        weight="74"></player>
+    <player first="Carlos" height="172" id="142720" last="Araujo" weight="69"></player>
+    <player first="Marcelo" height="182" id="142721" last="Barovero" weight="74"></player>
+    <player first="Leonardo" height="176" id="142728" last="Di Lorenzo" weight="73"></player>
+    <player first="Javier" height="174" id="142754" last="Mascherano" weight="73"></player>
+    <player first="Patricio" height="178" id="142756" jerseyName="P.Toranzo" last="Toranzo"
+        weight="73"></player>
+    <player first="Jonathan" height="180" id="142762" last="Bottinelli" weight="79"></player>
+    <player first="Gonzalo" height="182" id="142780" jerseyName="Gonzalo" last="Rodríguez"
+        weight="79"></player>
+    <player first="Leandro" height="172" id="142781" last="Romagnoli" weight="68"></player>
+    <player first="Pablo" height="178" id="142784" last="Zabaleta" weight="74"></player>
+    <player first="Facundo" height="180" id="142794" last="Erpen" weight="78"></player>
+    <player first="Maximiliano" height="176" id="142800" jerseyName="Velazquez" last="Velázquez"
+        weight="72"></player>
+    <player first="David" height="178" id="142808" last="Vega" weight="72"></player>
+    <player first="Fabián" height="175" id="142818" last="Cubero" weight="72"></player>
+    <player first="Jonás" height="183" id="142822" jerseyName="Jonas" last="Gutiérrez"
+        weight="73"></player>
+    <player first="Andriy" height="190" id="142902" last="Pyatov" weight="84"></player>
+    <player first="Germán" height="184" id="142938" last="Denis" weight="89"></player>
+    <player first="Javier" height="178" id="142942" last="Gandolfi" weight="78"></player>
+    <player first="Román" height="184" id="142950" jerseyName="Roman M." last="Martínez"
+        weight="81"></player>
+    <player first="Mariano" height="188" id="142959" last="Barbosa" weight="75"></player>
+    <player first="Enrique" height="189" id="142962" last="Bologna" weight="87"></player>
+    <player first="Jesús" height="177" id="142966" last="Dátolo" weight="72"></player>
+    <player first="Juan" height="180" id="142979" last="Quiroga" weight="79"></player>
+    <player first="Cristian" height="177" id="142998" jerseyName="C. Muñoz" last="Muñoz"
+        weight="73"></player>
+    <player first="Carlos" height="171" id="143001" last="Tévez" weight="75"></player>
+    <player first="Paulo" height="170" id="143013" last="Ferrari" weight="69"></player>
+    <player first="Germán" height="180" id="143018" last="Herrera" weight="83"></player>
+    <player first="Gustavo" height="163" id="143022" last="Lorenzetti" weight="63"></player>
+    <player first="Emiliano" height="169" id="143025" last="Papa" weight="67"></player>
+    <player first="Ismael" height="179" id="143032" last="Blanco" weight="78"></player>
+    <player first="Iván" height="185" id="143073" last="Furios" weight="85"></player>
+    <player first="Alejandro" height="165" id="143076" last="Gómez" weight="68"></player>
+    <player first="Pablo" height="183" id="143091" last="Santillo" weight="78"></player>
+    <player first="Marcelo" height="175" id="143101" last="Carrusca" weight="70"></player>
+    <player first="Marcos" height="176" id="143107" jerseyName="Pampa" last="Gelabert"
+        weight="72"></player>
+    <player first="Pablo" height="177" id="143112" last="Lugüercio" weight="79"></player>
+    <player first="Mariano" height="181" id="143119" last="Pavone" weight="81"></player>
+
+</player>
+
