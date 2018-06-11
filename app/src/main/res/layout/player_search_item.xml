@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:background="@android:color/holo_red_light">
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_purple">
 
-    <TextView
-        android:id="@+id/player_name"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="12sp"
-        android:textColor="@android:color/white"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
 
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/player_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/player_position"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/player_name"/>
+
+    </RelativeLayout>
 
 </LinearLayout>

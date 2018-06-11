@@ -7,10 +7,16 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Filter;
 import android.widget.Filterable;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static com.mrkotia.fifamobile.PlayerSelect.getBitmapFromURL;
+import static com.mrkotia.fifamobile.SplashScreen.fullNames;
+import static com.mrkotia.fifamobile.SplashScreen.idlist;
+import static com.mrkotia.fifamobile.SplashScreen.player_position_list;
 
 /**
  * Created by jai on 7/6/18.
@@ -22,7 +28,6 @@ public class PlayerSearchAdapter extends BaseAdapter implements Filterable {
     private List<String>filteredData = null;
     private LayoutInflater mInflater;
     private ItemFilter mFilter = new ItemFilter();
-
     public PlayerSearchAdapter(Context context, List<String> data) {
         this.filteredData = data ;
         this.originalData = data ;
@@ -56,7 +61,6 @@ public class PlayerSearchAdapter extends BaseAdapter implements Filterable {
             // we want to bind data to.
             holder = new ViewHolder();
             holder.text = (TextView) convertView.findViewById(R.id.player_name);
-
             // Bind the data efficiently with the holder.
 
             convertView.setTag(holder);

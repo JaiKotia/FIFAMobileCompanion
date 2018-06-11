@@ -89,6 +89,8 @@ public class PlayerSelect extends AppCompatActivity {
 
         final ListView playerListView = findViewById(R.id.player_list_view);
 
+        playerListView.setVisibility(View.INVISIBLE);
+
         adapter = new PlayerSearchAdapter(this, fullNames);
         playerListView.setAdapter(adapter);
 
@@ -103,6 +105,7 @@ public class PlayerSelect extends AppCompatActivity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 PlayerSelect.this.adapter.getFilter().filter(s);
                 adapter.notifyDataSetChanged();
+                playerListView.setVisibility(View.VISIBLE);
             }
 
             @Override
@@ -150,7 +153,7 @@ public class PlayerSelect extends AppCompatActivity {
                 for (int n = 0; n < fullNames.size(); n++) {
                     if (fullNames.get(n).equals(s)) {
                         searchID = idlist.get(n);
-                        txtResponse.setText(player_position_lit.get(n));
+                        txtResponse.setText(player_position_list.get(n));
                         String finalURL = startURL + searchID + endURL;
                         playerImage.setImageBitmap(getBitmapFromURL(finalURL));
                     }
