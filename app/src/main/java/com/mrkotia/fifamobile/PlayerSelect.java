@@ -1,46 +1,22 @@
 package com.mrkotia.fifamobile;
 
-import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
-import android.widget.Adapter;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import org.xml.sax.SAXException;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
-
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
-
-import static com.mrkotia.fifamobile.SplashScreen.fullNames;
-import static com.mrkotia.fifamobile.SplashScreen.idlist;
-import static com.mrkotia.fifamobile.SplashScreen.names;
-import static com.mrkotia.fifamobile.SplashScreen.player_id_list;
-import static com.mrkotia.fifamobile.SplashScreen.player_position_list;
-import static com.mrkotia.fifamobile.SplashScreen.player_tags_list;
-
 
 public class PlayerSelect extends AppCompatActivity {
 
@@ -51,9 +27,11 @@ public class PlayerSelect extends AppCompatActivity {
 
     private String searchID;
 
-    private PlayerSearchAdapter adapter;
-
+    private SearchAdapter oldAdapter;
+    private ArrayList<String> searchResults = new ArrayList<String>();
     private String add;
+    private PlayerSearchAdapter adapter;
+    private ArrayList<PlayerSearchObject> playerSearchObjects = new ArrayList<PlayerSearchObject>();
 
     public static Bitmap getBitmapFromURL(String src) {
         try {
@@ -79,19 +57,22 @@ public class PlayerSelect extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player_select);
 
+        final DatabaseHandler db = new DatabaseHandler(this);
 
-        txtResponse = findViewById(R.id.check);
+        /**txtResponse = findViewById(R.id.check);
         txtResponse.setMovementMethod(new ScrollingMovementMethod());
 
         Button selectPlayer = findViewById(R.id.select_player);
 
         final ImageView playerImage = findViewById(R.id.playerImage);
+        **/
 
         final ListView playerListView = findViewById(R.id.player_list_view);
 
         playerListView.setVisibility(View.INVISIBLE);
 
-        adapter = new PlayerSearchAdapter(this, fullNames);
+        //oldAdapter = new SearchAdapter(this, searchResults);
+        adapter = new PlayerSearchAdapter(this, playerSearchObjects);
         playerListView.setAdapter(adapter);
 
         final EditText search = findViewById(R.id.player_search_editbox);
@@ -103,17 +84,31 @@ public class PlayerSelect extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                PlayerSelect.this.adapter.getFilter().filter(s);
+
+
+                /**PlayerSelect.this.adapter.getFilter().filter(s);
                 adapter.notifyDataSetChanged();
-                playerListView.setVisibility(View.VISIBLE);
+                playerListView.setVisibility(View.VISIBLE);**/
             }
 
             @Override
             public void afterTextChanged(Editable s) {
+                if (s.length()>2) {
+                    /**searchResults = db.getPlayerSearchResult(s.toString());
+                    playerListView.setAdapter(new SearchAdapter(getApplicationContext(), searchResults));
+                    **/
 
+                    playerSearchObjects = db.getPlayerSearchResult(s.toString());
+                    playerListView.setAdapter(new PlayerSearchAdapter(getApplicationContext(), playerSearchObjects));
+                    adapter.notifyDataSetChanged();
+                    playerListView.setVisibility(View.VISIBLE);
+
+
+                }
             }
         });
 
+        /**
         selectPlayer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -160,7 +155,7 @@ public class PlayerSelect extends AppCompatActivity {
                 }
             }
         });
-
+         **/
     }
 
 }

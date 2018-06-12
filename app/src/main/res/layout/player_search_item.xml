@@ -12,20 +12,42 @@
         <TextView
             android:layout_centerVertical="true"
             android:id="@+id/player_name"
-            android:layout_width="300dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
             android:textSize="15sp" />
 
         <TextView
-            android:layout_centerVertical="true"
+            android:gravity="center"
             android:id="@+id/player_position"
-            android:layout_width="100dp"
+            android:layout_width="50dp"
             android:layout_height="match_parent"
             android:background="@android:color/holo_green_light"
             android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:layout_toRightOf="@id/player_name"/>
+            android:textSize="15sp"
+            android:layout_toLeftOf="@id/player_OVR"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/player_OVR"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_toLeftOf="@id/player_tags"/>
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/player_tags"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
 

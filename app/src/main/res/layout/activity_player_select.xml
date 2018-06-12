@@ -32,32 +32,32 @@
 
         </ListView>
 
-        <RelativeLayout
-            android:layout_alignParentRight="true"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="50dp"
-            android:background="@android:color/white"
-            android:elevation="1dp">
+        <!--        <RelativeLayout
+                    android:layout_alignParentRight="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@android:color/white"
+                    android:elevation="1dp">
 
-            <TextView
-                android:id="@+id/check"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@android:color/holo_purple"/>
+                    <TextView
+                        android:id="@+id/check"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@android:color/holo_purple" />
 
-            <ImageView
-                android:id="@+id/playerImage"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_below="@id/check"
-                android:background="@android:color/holo_green_light"/>
+                    <ImageView
+                        android:id="@+id/playerImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/check"
+                        android:background="@android:color/holo_green_light"/>
+
+                </RelativeLayout>
+
+        -->
+
+            </RelativeLayout>
+
 
         </RelativeLayout>
-
-
-
-    </RelativeLayout>
-
-
-</RelativeLayout>
