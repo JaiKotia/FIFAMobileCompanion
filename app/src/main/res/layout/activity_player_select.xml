@@ -8,27 +8,28 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_light">
+        android:layout_height="match_parent">
 
         <EditText
             android:id="@+id/player_search_editbox"
             android:layout_marginLeft="50dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:background="@android:color/white"/>
+            android:background="@android:color/holo_green_light"/>
 
         <Button
             android:id="@+id/select_player"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:background="@android:color/black"/>
+            android:background="@android:color/holo_red_light"/>
 
         <ListView
             android:id="@+id/player_list_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="50dp"
+            android:divider="#000000"
+            android:dividerHeight="1dp">
 
         </ListView>
 

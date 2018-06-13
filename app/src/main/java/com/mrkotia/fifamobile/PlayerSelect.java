@@ -1,5 +1,6 @@
 package com.mrkotia.fifamobile;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +9,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -32,25 +34,6 @@ public class PlayerSelect extends AppCompatActivity {
     private String add;
     private PlayerSearchAdapter adapter;
     private ArrayList<PlayerSearchObject> playerSearchObjects = new ArrayList<PlayerSearchObject>();
-
-    public static Bitmap getBitmapFromURL(String src) {
-        try {
-            Log.e("src", src);
-            java.net.URL url = new URL(src);
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setDoInput(true);
-            connection.connect();
-            InputStream input = connection.getInputStream();
-            Bitmap myBitmap = BitmapFactory.decodeStream(input);
-            Log.e("Bitmap", "returned");
-            return myBitmap;
-        } catch (IOException e) {
-            e.printStackTrace();
-            Log.e("Exception", e.getMessage());
-            return null;
-        }
-    }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,6 +88,17 @@ public class PlayerSelect extends AppCompatActivity {
 
 
                 }
+            }
+        });
+
+        playerListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                PlayerSearchObject object = (PlayerSearchObject) adapterView.getAdapter().getItem(i);
+                Intent intent = new Intent(PlayerSelect.this, EditPlayerActivity.class);
+                intent.putExtra("PlayerSearchObject", object);
+                startActivity(intent);
+
             }
         });
 

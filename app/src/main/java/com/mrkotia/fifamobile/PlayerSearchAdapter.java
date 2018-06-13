@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.logging.Filter;
 
 /**
  * Created by jai on 12/6/18.
@@ -17,6 +18,9 @@ public class PlayerSearchAdapter extends BaseAdapter {
 
     private LayoutInflater inflater;
     private ArrayList<PlayerSearchObject> objects;
+    private ArrayList<PlayerSearchObject> fobjects;
+    private android.widget.Filter filter;
+
 
     private class ViewHolder {
         TextView textView1;
@@ -26,8 +30,11 @@ public class PlayerSearchAdapter extends BaseAdapter {
     }
 
     public PlayerSearchAdapter(Context context, ArrayList<PlayerSearchObject> objects) {
+
         inflater = LayoutInflater.from(context);
         this.objects = objects;
+        this.fobjects = new ArrayList<PlayerSearchObject>(objects);
+    //    this.filter = new PlayerFilter();
     }
 
     public int getCount() {
@@ -62,4 +69,34 @@ public class PlayerSearchAdapter extends BaseAdapter {
 
         return convertView;
     }
+/**
+    public android.widget.Filter getFilter(){
+
+        if(filter == null){
+            filter = new PlayerFilter();
+        }
+        return filter;
+    }
+
+
+    private class PlayerFilter extends android.widget.Filter {
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint){
+            FilterResults results = new FilterResults();
+
+            results.values=null;
+
+
+            return results;
+        }
+
+        @SuppressWarnings("unchecked")
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            fobjects = (ArrayList<PlayerSearchObject>)results.values;
+            notifyDataSetChanged();
+
+        }
+    }
+ **/
 }

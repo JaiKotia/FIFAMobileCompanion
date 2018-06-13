@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.mrkotia.fifamobile.PlayerSelect.getBitmapFromURL;
+import static com.mrkotia.fifamobile.EditPlayerActivity.getBitmapFromURL;
 import static com.mrkotia.fifamobile.SplashScreen.fullNames;
 import static com.mrkotia.fifamobile.SplashScreen.idlist;
 import static com.mrkotia.fifamobile.SplashScreen.player_position_list;

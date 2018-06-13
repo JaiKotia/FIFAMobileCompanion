@@ -9,12 +9,17 @@ import android.widget.ListView;
 
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
+import java.sql.Array;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 /**
  * Created by jai on 11/6/18.
@@ -58,18 +63,68 @@ public class DatabaseHandler extends SQLiteAssetHelper {
         String query = "SELECT * FROM card_table WHERE fullname LIKE '%" + search + "%'";
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery(query, null);
-        String result=null;
+        String OVR="0", tags;
+        String cardType="unknown";
         if (cursor != null && cursor.moveToFirst()) do {
             //result = cursor.getString(cursor.getColumnIndex("position"));
             //dbSearchResults.add(cursor.getString(cursor.getColumnIndex("fullname")));
 
+            tags = cursor.getString(cursor.getColumnIndex("tags"));
+            List<String> stringList = Arrays.asList(tags.split(","));
+            for (int i=0; i<stringList.size(); i++) {
+                if(stringList.get(i).contains("BASEOVR_")){
+                    String[] parts = stringList.get(i).split("_");
+                    OVR = parts[1];
+                }
+                if(stringList.get(i).contains("BASEITEM")){
+                    cardType="Base";
+                }
+                if(stringList.get(i).contains("TOTY")){
+                    cardType="TOTY";
+                }
+                if(stringList.get(i).contains("TOTS")){
+                    cardType="TOTS";
+                }
+                if(stringList.get(i).contains("GOLDEN_TICKET")){
+                    cardType="Golden Ticket";
+                }
+                if(stringList.get(i).contains("MATCHUPS_PLAYER")){
+                    cardType="Matchups";
+                }
+                if(stringList.get(i).contains("VSA")){
+                    cardType="VSA";
+                }
+                if(stringList.get(i).contains("EUROSTARS")){
+                    cardType="EURO Star";
+                }
+                if(stringList.get(i).contains("POTM")){
+                    cardType="POTM";
+                }
+                if(stringList.get(i).contains("ICONS")){
+                    cardType="Icon";
+                }
+                if(stringList.get(i).contains("TOTW")){
+                    cardType="TOTW";
+                }
+            }
+
+
+
             playerSearchObject = new PlayerSearchObject(cursor.getString(cursor.getColumnIndex("fullname")),
                                                         cursor.getString(cursor.getColumnIndex("position")),
-                                                        cursor.getString(cursor.getColumnIndex("DRI")),
-                                                        cursor.getString(cursor.getColumnIndex("tags")));
+                                                        cardType,
+                                                        OVR,
+                                                        cursor.getString(cursor.getColumnIndex("playerId")),
+                                                        cursor.getString(cursor.getColumnIndex("id")));
             playerSearchResults.add(playerSearchObject);
         } while (cursor.moveToNext());
         cursor.close();
+        Collections.sort(playerSearchResults, new Comparator<PlayerSearchObject>() {
+            @Override
+            public int compare(PlayerSearchObject o1, PlayerSearchObject o2){
+                return Integer.valueOf(o2.getBaseOVR()).compareTo(Integer.valueOf(o1.getBaseOVR()));
+            }
+        });
         return playerSearchResults;
     }
 
