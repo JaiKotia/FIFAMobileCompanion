@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/st"
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="120dp"
+    android:background="@drawable/carddropzone"
+    android:clickable="true">
+
+    <include layout="@layout/main_card_layout"/>
+
+</RelativeLayout>

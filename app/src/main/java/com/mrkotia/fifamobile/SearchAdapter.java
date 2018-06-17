@@ -14,9 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.mrkotia.fifamobile.EditPlayerActivity.getBitmapFromURL;
-import static com.mrkotia.fifamobile.SplashScreen.fullNames;
-import static com.mrkotia.fifamobile.SplashScreen.idlist;
-import static com.mrkotia.fifamobile.SplashScreen.player_position_list;
 
 /**
  * Created by jai on 7/6/18.

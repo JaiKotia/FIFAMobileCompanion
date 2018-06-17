@@ -1,11 +1,14 @@
 package com.mrkotia.fifamobile;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -20,6 +23,8 @@ public class EditPlayerActivity extends AppCompatActivity {
     private String startURL = "https://eaassets-a.akamaihd.net/fifa/u/f/fm18/prod2/s/static/players/players_18/p";
     private String endURL = ".png";
     private String ImageID = null;
+    private PlayerSearchObject player;
+    private static Bitmap myBitmap;
 
     public static Bitmap getBitmapFromURL(String src) {
         try {
@@ -29,7 +34,7 @@ public class EditPlayerActivity extends AppCompatActivity {
             connection.setDoInput(true);
             connection.connect();
             InputStream input = connection.getInputStream();
-            Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            myBitmap = BitmapFactory.decodeStream(input);
             Log.e("Bitmap", "returned");
             return myBitmap;
         } catch (IOException e) {
@@ -43,17 +48,19 @@ public class EditPlayerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final PlayerSearchObject player = (PlayerSearchObject) getIntent().getSerializableExtra("PlayerSearchObject");
+        player  = (PlayerSearchObject) getIntent().getSerializableExtra("PlayerSearchObject");
+
 
         setContentView(R.layout.activity_edit_player);
         final ImageView playerCardImage = findViewById(R.id.playerCardImage);
         final TextView playerCardName = findViewById(R.id.playerCardName);
         final TextView playerCardOVR = findViewById(R.id.playerCardOVR);
         final TextView playerCardPosition = findViewById(R.id.playerCardPosition);
-
+        final Button btn_show_all_stats = findViewById(R.id.btn_showAllStats);
+        final Button btn_train_player = findViewById(R.id.btn_trainPlayer);
+        final Button btn_add_to_team = findViewById(R.id.btn_addToTeam);
 
         final DatabaseHandler db = new DatabaseHandler(this);
-
 
         switch (player.getTags()) {
             case "Base":
@@ -91,6 +98,36 @@ public class EditPlayerActivity extends AppCompatActivity {
             }
 
         });
+
+        btn_show_all_stats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(EditPlayerActivity.this, PlayerStatsActivity.class);
+                intent.putExtra("PlayerStats", player);
+                startActivity(intent);
+            }
+        });
+
+
+
+        btn_add_to_team.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addToTeam();
+            }
+        });
     }
+
+    public void addToTeam() {
+//        String cardID=player.getCardID();
+//        String query = "SELECT * FROM card_table WHEREE id ='" + cardID + "'";
+        Intent intent = new Intent(EditPlayerActivity.this, MainActivity.class);
+        intent.putExtra("pos", getIntent().getStringExtra("pos"));
+        intent.putExtra("PlayerObject", player);
+        intent.putExtra("playerIMG", myBitmap);
+        startActivity(intent);
+
+    }
+
 }
 

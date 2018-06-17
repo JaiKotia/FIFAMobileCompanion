@@ -3,6 +3,7 @@ package com.mrkotia.fifamobile;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
+import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.StrictMode;
 import android.preference.PreferenceManager;
@@ -12,6 +13,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 import java.io.IOException;
@@ -23,6 +27,7 @@ import javax.xml.parsers.SAXParserFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 
+import org.w3c.dom.Text;
 import org.xml.sax.SAXException;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,83 +37,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        RelativeLayout st = findViewById(R.id.st);
+        TextView mainCardText = findViewById(R.id.mainCardText);
+        ImageView stIMG = findViewById(R.id.mainPlayerImage);
+        TextView mainCardOVR = findViewById(R.id.mainCardOVR);
+        TextView mainCardPos = findViewById(R.id.mainCardPos);
+        ImageView mainCardBG = findViewById(R.id.mainCardBG);
 
-        /**
-
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        if (!prefs.getBoolean("firstTime", false)) {
-            // <---- run your one time code here
-            AsyncTask.execute(new Runnable() {
-                @Override
-                public void run() {
-
-
-                    SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
-                    try {
-                        SAXParser saxParser = saxParserFactory.newSAXParser();
-                        SAXCardHandler saxHandler = new SAXCardHandler();
-
-                        AssetManager assetManager = getAssets();
-                        InputStream inputStream = assetManager.open("card_database.xml");
-
-                        saxParser.parse(inputStream, saxHandler);
-
-                        List<Card> cardList = saxHandler.getCardList();
-                        for (Card cd : cardList) {
-                            card_id_list.add(cd.getId());
-                            player_id_list.add(cd.getPlayerId());
-                            dri.add(cd.getDRI());
-                        }
+        PlayerSearchObject player  = (PlayerSearchObject) getIntent().getSerializableExtra("PlayerObject");
+        Bitmap playerIMG = (Bitmap) getIntent().getParcelableExtra("playerIMG");
 
 
-                    } catch (ParserConfigurationException | SAXException | IOException e) {
-                        e.printStackTrace();
-                    }
-
-                }
-            });
-
-
-            AsyncTask.execute(new Runnable() {
-                @Override
-                public void run() {
-
-
-                    SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
-                    try {
-                        SAXParser saxParser = saxParserFactory.newSAXParser();
-                        SAXPlayerHandler saxHandler = new SAXPlayerHandler();
-
-                        AssetManager assetManager = getAssets();
-                        InputStream in = assetManager.open("player_database.xml");
-
-                        saxParser.parse(in, saxHandler);
-
-                        List<Player> playerList = saxHandler.getPlayerList();
-                        for (Player pl : playerList) {
-                            names.add(pl.getFirst());
-                            lastnames.add(pl.getLast());
-                            idlist.add(pl.getID());
-                            String fullName = pl.getFirst() + " " + pl.getLast();
-                            fullNames.add(fullName);
-                        }
-
-
-                    } catch (ParserConfigurationException | SAXException | IOException e) {
-                        e.printStackTrace();
-                    }
-
-                }
-            });
-
-
-            // mark first time has runned.
-            SharedPreferences.Editor editor = prefs.edit();
-            editor.putBoolean("firstTime", true);
-            editor.commit();
+        if(player!=null) {
+            if(playerIMG!=null){
+                stIMG.setImageBitmap(playerIMG);
+            }
+            st.setBackground(null);
+            mainCardText.setText(player.getPlayerName());
+            mainCardOVR.setText(player.getBaseOVR());
+            mainCardPos.setText(player.getPosition());
+            mainCardBG.setImageDrawable(getResources().getDrawable(R.drawable.card_bg));
         }
 
-        **/
+        String pos=getIntent().getStringExtra("pos");
 
         ViewFlipper viewFlipper = findViewById(R.id.view_flipper);
         String formation_selected = null;
@@ -126,11 +77,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        Button st = findViewById(R.id.st);
+
         st.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PlayerSelect.class);
+                intent.putExtra("pos", "ST");
                 startActivity(intent);
             }
         });

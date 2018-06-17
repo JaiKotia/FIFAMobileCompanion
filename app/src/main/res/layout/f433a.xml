@@ -21,15 +21,19 @@
             android:scaleType="fitCenter"
             android:src="@drawable/carddropzone" />
 
-        <ImageButton
-            android:id="@+id/st"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="120dp"
-            android:background="@android:color/transparent"
-            android:scaleType="fitCenter"
-            android:src="@drawable/carddropzone" />
+        <RelativeLayout
+            android:id="@+id/f433aST"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <include layout="@layout/st_layout" />
+
+
+
+        </RelativeLayout>
+
 
         <ImageButton
             android:id="@+id/lw"

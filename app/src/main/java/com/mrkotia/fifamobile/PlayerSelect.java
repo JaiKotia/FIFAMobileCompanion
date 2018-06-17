@@ -40,21 +40,13 @@ public class PlayerSelect extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_player_select);
 
+
         final DatabaseHandler db = new DatabaseHandler(this);
-
-        /**txtResponse = findViewById(R.id.check);
-        txtResponse.setMovementMethod(new ScrollingMovementMethod());
-
-        Button selectPlayer = findViewById(R.id.select_player);
-
-        final ImageView playerImage = findViewById(R.id.playerImage);
-        **/
 
         final ListView playerListView = findViewById(R.id.player_list_view);
 
         playerListView.setVisibility(View.INVISIBLE);
 
-        //oldAdapter = new SearchAdapter(this, searchResults);
         adapter = new PlayerSearchAdapter(this, playerSearchObjects);
         playerListView.setAdapter(adapter);
 
@@ -68,24 +60,15 @@ public class PlayerSelect extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-
-                /**PlayerSelect.this.adapter.getFilter().filter(s);
-                adapter.notifyDataSetChanged();
-                playerListView.setVisibility(View.VISIBLE);**/
             }
 
             @Override
             public void afterTextChanged(Editable s) {
                 if (s.length()>2) {
-                    /**searchResults = db.getPlayerSearchResult(s.toString());
-                    playerListView.setAdapter(new SearchAdapter(getApplicationContext(), searchResults));
-                    **/
-
                     playerSearchObjects = db.getPlayerSearchResult(s.toString());
                     playerListView.setAdapter(new PlayerSearchAdapter(getApplicationContext(), playerSearchObjects));
                     adapter.notifyDataSetChanged();
                     playerListView.setVisibility(View.VISIBLE);
-
 
                 }
             }
@@ -97,6 +80,9 @@ public class PlayerSelect extends AppCompatActivity {
                 PlayerSearchObject object = (PlayerSearchObject) adapterView.getAdapter().getItem(i);
                 Intent intent = new Intent(PlayerSelect.this, EditPlayerActivity.class);
                 intent.putExtra("PlayerSearchObject", object);
+                intent.putExtra("pos", getIntent().getStringExtra("pos"));
+                String check=getIntent().getStringExtra("pos");
+                Log.w("Check", check);
                 startActivity(intent);
 
             }

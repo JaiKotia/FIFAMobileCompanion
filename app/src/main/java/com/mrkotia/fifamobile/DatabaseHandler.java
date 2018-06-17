@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.widget.ListView;
 
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
@@ -43,20 +44,6 @@ public class DatabaseHandler extends SQLiteAssetHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    public void initializeAdapter() {
-        SQLiteDatabase db = getReadableDatabase();
-        Cursor cursor = db.query("card_table", new String[]{"fullname"}, null, null, null, null, null);
-        String fieldToAdd=null;
-        if (cursor != null && cursor.moveToFirst()) {
-
-            while (cursor.moveToNext()) {
-                fieldToAdd = cursor.getString(0);
-                fullname.add(fieldToAdd);
-            }
-        }
-        cursor.close();
-    }
-
     public ArrayList<PlayerSearchObject> getPlayerSearchResult(String search) {
 
         playerSearchResults.clear();
@@ -66,8 +53,6 @@ public class DatabaseHandler extends SQLiteAssetHelper {
         String OVR="0", tags;
         String cardType="unknown";
         if (cursor != null && cursor.moveToFirst()) do {
-            //result = cursor.getString(cursor.getColumnIndex("position"));
-            //dbSearchResults.add(cursor.getString(cursor.getColumnIndex("fullname")));
 
             tags = cursor.getString(cursor.getColumnIndex("tags"));
             List<String> stringList = Arrays.asList(tags.split(","));
@@ -126,6 +111,43 @@ public class DatabaseHandler extends SQLiteAssetHelper {
             }
         });
         return playerSearchResults;
+    }
+
+    public ArrayList<String> getPlayerStats(String cardID) {
+        ArrayList<String> stats = new ArrayList<>();
+
+
+        String query = "SELECT * FROM card_table WHERE id LIKE '%" + cardID + "%'";
+
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery(query, null);
+        if (cursor != null && cursor.moveToFirst()) {
+            stats.add(cursor.getString(cursor.getColumnIndex("BAC")));
+            stats.add(cursor.getString(cursor.getColumnIndex("TAC")));
+            stats.add(cursor.getString(cursor.getColumnIndex("LSA")));
+            stats.add(cursor.getString(cursor.getColumnIndex("SPA")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+            stats.add(cursor.getString(cursor.getColumnIndex("AGG")));
+
+        }
+        cursor.close();
+
+
+        return stats;
     }
 
 }

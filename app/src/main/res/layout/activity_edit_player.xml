@@ -20,8 +20,8 @@
 
         <ImageView
             android:id="@+id/playerCardImage"
-            android:layout_width="300dp"
-            android:layout_height="300dp" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <TextView
             android:id="@+id/playerCardOVR"
@@ -57,6 +57,7 @@
 
 
     <Button
+        android:id="@+id/btn_showAllStats"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -64,6 +65,7 @@
         android:text="Show All Stats" />
 
     <Button
+        android:id="@+id/btn_trainPlayer"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="400dp"
@@ -71,6 +73,7 @@
         android:text="Train Player" />
 
     <Button
+        android:id="@+id/btn_addToTeam"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="450dp"

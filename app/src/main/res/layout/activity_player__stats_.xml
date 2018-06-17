@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stats_bg"
+    tools:context="com.mrkotia.fifamobile.PlayerStatsActivity">
+
+    <TextView
+        android:id="@+id/BAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/AGG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BAC"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/TAC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AGG"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/LSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TAC"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/SPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LSA"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

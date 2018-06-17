@@ -22,16 +22,10 @@
             android:text="GK"
             android:textColor="@android:color/white"/>
 
-        <Button
-            android:id="@+id/st"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="120dp"
-            android:scaleType="fitCenter"
-            android:background="@drawable/carddropzone"
-            android:text="ST"
-            android:textColor="@android:color/white" />
+
+
+        <include layout="@layout/st_layout" />
+
 
         <Button
             android:id="@+id/lw"
